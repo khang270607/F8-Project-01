@@ -625,10 +625,8 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 3px;
-}
-
-.social .social-link:nth-child(2) {
-  margin: 0 16px;
+  margin-right: 16px;
+  background: #F9F9F9;
 }
 
 .social .social-link:hover {
