@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>F8-Project-01</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./accsets/favicon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./accsets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./accsets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./accsets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./accsets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./accsets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./accsets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./accsets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./accsets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./accsets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./accsets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./accsets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./accsets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./accsets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./accsets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- css -->
     <link rel="stylesheet" href="accsets/css/reset.css" />
     <link rel="stylesheet" href="accsets/css/style.css" />
@@ -16,18 +34,17 @@
     <link rel="stylesheet" href="accsets/font/stylesheet.css" />
   </head>
   <body>
-    <main>
       <header class="fix-header">
         <nav class="navbar">
           <!-- logo -->
-          <a href="#!"><img src="accsets/img/header/Logo.svg" alt="Besnik." /></a>
+          <a href="#home"><img src="accsets/img/header/Logo.svg" alt="Besnik." /></a>
           <!-- Navigation -->
           <ul>
-            <li><a href="#!">Home</a></li>
-            <li><a href="#!">Features</a></li>
-            <li><a href="#!">Services</a></li>
-            <li><a href="#!">Resources</a></li>
-            <li><a href="#!">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#feature">Features</a></li>
+            <li><a href="#Resources">Resources</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
           <!-- Action -->
           <div class="action">
@@ -41,7 +58,7 @@
         <div class="content">
           
           <!--  -->
-          <div class="hero">
+          
             <div class="info">
               <p class="sub-title">Welcome to Besnik Agency</p>
               <h1 class="title">Discover a place you'll love to live.</h1>
@@ -58,9 +75,9 @@
               alt="Discover a place you'll love to live."
               class="hero-img"
             />
-          </div>
         </div>
       </div>
+      <main id="home"></main>
       <!-- clients -->
       <div class="client">
         <div class="content">
@@ -114,7 +131,7 @@
           </div>
         </div>
       </div>
-      <div class="guides">
+      <div id="service" class="guides">
         <div class="content">
           <h2 class="sub-title">How its works?</h2>
           <div class="desc">
@@ -186,7 +203,7 @@
         </div>
       </div>
       <!-- feature -->
-      <div class="feature">
+      <div id="feature" class="feature">
         <div class="content">
           <header>
             <h2 class="sub-title">Featured Properties</h2>
@@ -313,7 +330,7 @@
         </div>
       </div>
       <!--stats-->
-      <div class="stats">
+      <div id="Resources" class="stats">
         <div class="content">
           <div class="row">
             <div class="img-block">
@@ -469,7 +486,7 @@
         </div>
       </div>
       <!-- subscription -->
-      <div class="subscription">
+      <div id="Contact" class="subscription">
         <div class="content">
           <div class="body">
             <div class="info">
@@ -485,6 +502,7 @@
           </div>
         </div>
       </div>
+    </main>
       <!-- footer -->
       <footer class="footer">
         <div class="content">
@@ -543,6 +561,5 @@
           </div>
         </div>
       </footer>
-    </main>
   </body>
 </html>
