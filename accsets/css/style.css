@@ -638,12 +638,15 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 3px;
-  margin-right: 16px;
   background: #f9f9f9;
 }
 
 .social .social-link:hover {
   background: #ededed;
+}
+
+.social .social-link + .social-link {
+  margin-right: 16px;
 }
 
 .footer .row-bottom {
